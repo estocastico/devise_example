@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Blog.create([{title: 'Test', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis fermentum augue scelerisque viverra. Aenean et nisl vitae metus bibendum eleifend id laoreet tortor. '},
+    {title: 'Post', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis fermentum augue scelerisque viverra. Aenean et nisl vitae metus bibendum eleifend id laoreet tortor. '},
+    {title: 'Another', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis fermentum augue scelerisque viverra. Aenean et nisl vitae metus bibendum eleifend id laoreet tortor. '}
+    ])
